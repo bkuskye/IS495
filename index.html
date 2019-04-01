@@ -8,12 +8,25 @@
     <title>Professional Dog Mom</title>
     <meta name="description" content="Dog Mom">
     <meta name="author" content="IS495 Group One">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <style>
-        body, html {
+        body,
+        html {
             height: 100%;
+        }
+
+        .page-border {
+            border-width: 6px !important;
+            border-color: #ADADAD !important;
+        }
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            font-size: 10px;
+            color: #CECCCC;
         }
     </style>
 </head>
@@ -21,17 +34,16 @@
 <body>
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <div class="col-sm-3" style="background-color:darkgray">
+            <div class="col-md-2 border-right page-border" style="background-color:#474646">
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-8">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
                         <img src="prodogmomlogoonly.jpg" alt="ProDogMom Logo" width="30" height="30"
                             class="d-inline-block align-top">
                         Pro Dog Mom
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -55,22 +67,32 @@
                     </div>
                 </nav>
 
-                <img src="ProDogMom.jpg" alt="ProDogMom Logo" class="img-fluid mx-auto d-block">
+                <img src="ProDogMom.jpg" alt="ProDogMom Logo" class="img-fluid mx-auto d-block mb-4 border-bottom">
+                <div class="row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <input class="form-control" type="text" placeholder="Enter search criteria..." aria-label="Search">
+                        <button class="btn btn-primary mx-auto d-block mt-3" type="submit">Search</button>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+                <div id="footer" class="mx-auto d-block text-center border-top pt-1">
+                        Developed by IS495 Students
+                     </div>
             </div>
-            <div class="col-sm-3" style="background-color:darkgray">
+            <div class="col-md-2 border-left page-border" style="background-color:#464747">
             </div>
         </div>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
 
