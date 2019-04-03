@@ -15,7 +15,6 @@
         html {
             height: 100%;
         }
-
         .page-border {
             border-width: 6px !important;
             border-color: #ADADAD !important;
@@ -51,13 +50,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Client List</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Dog List</a>
+                                <a class="nav-link" href="dog_list.php">Dog List</a>
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
